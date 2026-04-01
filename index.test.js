@@ -2,7 +2,8 @@ const request = require('supertest');
 const indexApp = require("./index");
 const users = [
     {id:1,name:"Russel",age:33},
-    {id:2,name:"John",age:32}
+    {id:2,name:"John",age:32},
+    {id:3,name:"Ria",age:34}
 ];
 describe("GET /api/users",()=>{
     it("should return array of users",async()=>{
